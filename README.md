@@ -63,7 +63,7 @@ Contributions are welcome! If you’d like to add improvements or new mini-proje
 ---
 
 ## 📜 License  
-This project is licensed under the **MIT License** – feel free to use and modify the code.  
+This project is licensed under the **                    GNU GENERAL PUBLIC LICENSE** – feel free to use and modify the code.  
 
 ---
 
