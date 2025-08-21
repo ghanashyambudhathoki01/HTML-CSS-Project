@@ -1,5 +1,6 @@
 # HTML-CSS-Project  
 
+# Tech-Stack
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)  
@@ -12,8 +13,7 @@ A collection of beginner to advanced **HTML & CSS projects** showcasing layouts,
 ## 📑 Table of Contents  
 - [🚀 Live Project Previews](#-live-project-previews)  
 - [📂 Projects Overview](#-projects-overview)  
-- [🛠️ Tech Stack](#️-tech-stack)  
-- [📸 Screenshots](#-screenshots)  
+- [🛠️ Tech Stack](#️-tech-stack)    
 - [🤝 Contributing](#-contributing)  
 - [📜 License](#-license)  
 - [👨‍💻 Author](#-author)  
@@ -29,7 +29,7 @@ A fully responsive Netflix landing page clone with modern UI design and animatio
 ### ✈️ Responsive Travel Website  
 A modern glassmorphism-based profile card portfolio website with animations, responsive design, and social media links.  
 🔗 **Live Preview:** *(https://golden-cuchufli-75e1c2.netlify.app)*  
-### 🪪  Responsive Travel Website  
+### 🪪  Responsive Profile Card  
 A modern glassmorphism-based profile card portfolio website with animations, responsive design, and social media links.  
 🔗 **Live Preview:** *(https://thunderous-travesseiro-f9b330.netlify.app)*  
 
@@ -53,8 +53,6 @@ This repository includes:
 
 ---
 
-## 📸 Screenshots  
-(Add screenshots of your projects here for better presentation.)  
 
 ---
 
