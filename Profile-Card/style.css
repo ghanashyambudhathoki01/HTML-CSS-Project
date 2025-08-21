@@ -1,22 +1,20 @@
-/* Import premium fonts from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap");
 
-/* CSS Variables for consistent theming */
 :root {
-  --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  --secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-  --accent-gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-  --dark-gradient: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
-  --glass-bg: rgba(255, 255, 255, 0.25);
-  --glass-border: rgba(255, 255, 255, 0.18);
-  --shadow-soft: 0 8px 32px rgba(31, 38, 135, 0.37);
-  --shadow-hover: 0 15px 35px rgba(31, 38, 135, 0.5);
-  --text-primary: #2c3e50;
-  --text-secondary: #7f8c8d;
-  --text-accent: #667eea;
-  --border-radius: 24px;
-  --transition-smooth: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  --transition-bounce: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  accent-gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  dark-gradient: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  glass-bg: rgba(255, 255, 255, 0.25);
+  glass-border: rgba(255, 255, 255, 0.18);
+  shadow-soft: 0 8px 32px rgba(31, 38, 135, 0.37);
+  shadow-hover: 0 15px 35px rgba(31, 38, 135, 0.5);
+  text-primary: #2c3e50;
+  text-secondary: #7f8c8d;
+  text-accent: #667eea;
+  border-radius: 24px;
+  transition-smooth: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition-bounce: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 * {
@@ -37,7 +35,6 @@ body {
   position: relative;
 }
 
-/* Animated background particles */
 body::before {
   content: '';
   position: absolute;
@@ -76,7 +73,6 @@ body::before {
   transform-style: preserve-3d;
 }
 
-/* Glassmorphism shine effect */
 .profile-container::before {
   content: '';
   position: absolute;
@@ -99,7 +95,6 @@ body::before {
   border-color: rgba(255, 255, 255, 0.3);
 }
 
-/* Enhanced image container */
 .image {
   position: relative;
   height: 120px;
@@ -149,7 +144,6 @@ body::before {
   transition: var(--transition-smooth);
 }
 
-/* Typography enhancements */
 .name {
   font-family: "Playfair Display", serif;
   font-size: 1.8rem;
@@ -202,7 +196,6 @@ body::before {
   opacity: 0.9;
 }
 
-/* Enhanced button styles */
 .btn {
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -248,7 +241,6 @@ body::before {
   transform: translateY(-1px) scale(1.02);
 }
 
-/* Social media icons enhancement */
 .social {
   display: flex;
   align-items: center;
@@ -300,13 +292,11 @@ body::before {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
-/* Individual social media colors */
 .fb:hover { background: linear-gradient(135deg, #3b5998, #4c70ba); }
 .yt:hover { background: linear-gradient(135deg, #ff0000, #cc0000); }
 .twitter:hover { background: linear-gradient(135deg, #1da1f2, #0d8bd9); }
 .insta:hover { background: linear-gradient(135deg, #e4405f, #833ab4, #fcb045); }
 
-/* Responsive design */
 @media (max-width: 768px) {
   .profile-container {
     max-width: 300px;
@@ -341,7 +331,6 @@ body::before {
   }
 }
 
-/* Loading animation for the entire card */
 .profile-container {
   animation: slideInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
@@ -357,7 +346,6 @@ body::before {
   }
 }
 
-/* Subtle animations for list items */
 ul, li {
   display: flex;
   padding: 0.5rem;
@@ -380,16 +368,14 @@ ul li:hover {
   background: rgba(255, 255, 255, 0.2);
 }
 
-/* Enhanced span styling */
 span {
   background: var(--accent-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  webkit-background-clip: text;
+  webkit-text-fill-color: transparent;
   background-clip: text;
   font-weight: 600;
 }
 
-/* Focus states for accessibility */
 .btn:focus,
 .social-btn:focus,
 .name:focus {
@@ -397,7 +383,6 @@ span {
   outline-offset: 2px;
 }
 
-/* High contrast mode support */
 @media (prefers-contrast: high) {
   .profile-container {
     background: rgba(255, 255, 255, 0.9);
@@ -409,7 +394,6 @@ span {
   }
 }
 
-/* Reduced motion for accessibility */
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
