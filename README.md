@@ -51,8 +51,6 @@ This repository includes:
 ---
 
 
----
-
 ## 🤝 Contributing  
 Contributions are welcome! If you’d like to add improvements or new mini-projects:  
 1. Fork the repository  
@@ -63,13 +61,13 @@ Contributions are welcome! If you’d like to add improvements or new mini-proje
 ---
 
 ## 📜 License  
-This project is licensed under the **                    GNU GENERAL PUBLIC LICENSE** – feel free to use and modify the code.  
+This project is licensed under the                   GNU GENERAL PUBLIC LICENSE feel free to use and modify the code.  
 
 ---
 
 ## 👨‍💻 Author  
 **Ghanashyam Budhathoki**  
-- 🌐 [Portfolio](https://ghanashyambudhathoki01.github.io)  
+- 🌐 [Portfolio](https://ghanashyambudhathoki02.netlify.app)  
 - 📂 [GitHub](https://github.com/ghanashyambudhathoki01)  
 
 ---
