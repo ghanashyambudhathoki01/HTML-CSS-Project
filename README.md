@@ -5,12 +5,12 @@ A collection of beginner to advanced **HTML & CSS projects** showcasing layouts,
 ---
 
 ## 📑 Table of Contents  
-- [🚀 Live Project Previews](#-live-project-previews)  
-- [📂 Projects Overview](#-projects-overview)  
-- [🛠️ Tech Stack](#️-tech-stack)    
-- [🤝 Contributing](#-contributing)  
-- [📜 License](#-license)  
-- [👨‍💻 Author](#-author)  
+- 🚀 Live Project Preview
+- 📂 Projects Overview  
+- 🛠️ Tech Stack  
+- 🤝 Contributing 
+- 📜 License  
+- 👨‍💻 Author 
 
 ---
 
