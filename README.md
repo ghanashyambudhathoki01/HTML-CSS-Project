@@ -22,7 +22,7 @@ A fully responsive Netflix landing page clone with modern UI design and animatio
 
 ### ✈️ Responsive Travel Website  
 A modern glassmorphism-based profile card portfolio website with animations, responsive design, and social media links.  
-🔗 **Live Preview:** *(https://golden-cuchufli-75e1c2.netlify.app)*  
+🔗 **Live Preview:** *(https://spontaneous-paletas-5a1f7c.netlify.app)*  
 ### 🪪  Responsive Profile Card  
 A modern glassmorphism-based profile card portfolio website with animations, responsive design, and social media links.  
 🔗 **Live Preview:** *(https://thunderous-travesseiro-f9b330.netlify.app)*  
