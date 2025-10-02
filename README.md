@@ -26,6 +26,12 @@ A modern glassmorphism-based profile card portfolio website with animations, res
 ### 🪪  Responsive Profile Card  
 A modern glassmorphism-based profile card portfolio website with animations, responsive design, and social media links.  
 🔗 **Live Preview:** *(https://thunderous-travesseiro-f9b330.netlify.app)*  
+### ⌚  Product Landing Page 
+A modern product landing page is a sleek, visually appealing webpage designed to showcase a product with clear messaging, engaging visuals.
+🔗 **Live Preview:** *(https://productlandingproject.netlify.app/)*  
+### ⌚  Resume 
+An online resume showcasing your projects and personal info is a digital portfolio that highlights your skills, experiences, and achievements in a professional layout.
+🔗 **Live Preview:** *(https://amodernresume.netlify.app/)*  
 
 ---
 
