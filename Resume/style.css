@@ -1,0 +1,370 @@
+/* ===== CSS Variables ===== */
+    :root {
+      --primary: #2c3e50;
+      --secondary: #3498db;
+      --accent: #e74c3c;
+      --bg: #f9f9f9;
+      --card-bg: #ffffff;
+      --text: #333333;
+      --text-light: #777777;
+      --border: #eaeaea;
+      --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      --shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.12);
+      --radius: 8px;
+      --transition: all 0.3s ease;
+      font: "Inter", "Segoe UI", sans-serif;
+    }
+
+    /* ===== Base Styles ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: var(--font);
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+      padding: 20px;
+      font-weight: 400;
+    }
+
+    h1, h2, h3, h4 {
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: var(--primary);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      position: relative;
+      padding-bottom: 8px;
+      margin-bottom: 25px;
+    }
+
+    h2::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 50px;
+      height: 3px;
+      background: var(--secondary);
+      border-radius: 2px;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    /* ===== Header ===== */
+    header {
+      text-align: center;
+      margin-bottom: 50px;
+      padding: 40px 20px;
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: linear-gradient(90deg, var(--secondary), var(--accent));
+    }
+
+    header h1 {
+      color: var(--primary);
+      margin-bottom: 8px;
+    }
+
+    header h3 {
+      font-weight: 500;
+      color: var(--secondary);
+      margin-bottom: 15px;
+      font-size: 1.3rem;
+    }
+
+    .contact-info {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 15px;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-light);
+      transition: var(--transition);
+    }
+
+    .contact-item:hover {
+      color: var(--secondary);
+    }
+
+    .contact-item i {
+      font-size: 1.1rem;
+    }
+
+    /* ===== About Me ===== */
+    .about {
+      background: var(--card-bg);
+      padding: 30px;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      line-height: 1.7;
+    }
+
+    /* ===== Skills ===== */
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .skill {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      padding: 10px 18px;
+      border-radius: 30px;
+      font-size: 0.9rem;
+      transition: var(--transition);
+      font-weight: 500;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+    }
+
+    .skill:hover {
+      background: var(--secondary);
+      color: white;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(52, 152, 219, 0.2);
+    }
+
+    /* ===== Timeline ===== */
+    .timeline {
+      position: relative;
+      margin-left: 20px;
+      padding-left: 30px;
+      border-left: 2px solid var(--border);
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-bottom: 35px;
+      background: var(--card-bg);
+      padding: 20px;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      transition: var(--transition);
+    }
+
+    .timeline-item:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-hover);
+    }
+
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      left: -36px;
+      top: 25px;
+      width: 14px;
+      height: 14px;
+      background: var(--secondary);
+      border-radius: 50%;
+      border: 3px solid var(--card-bg);
+      box-shadow: 0 0 0 2px var(--secondary);
+    }
+
+    .timeline-item h3 {
+      margin-bottom: 8px;
+      color: var(--primary);
+      font-size: 1.2rem;
+    }
+
+    .timeline-item span {
+      font-size: 0.9rem;
+      color: var(--secondary);
+      display: block;
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+
+    /* ===== Projects ===== */
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .project {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 25px;
+      transition: var(--transition);
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .project:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-hover);
+    }
+
+    .project h3 {
+      margin-bottom: 12px;
+      color: var(--primary);
+      font-size: 1.2rem;
+    }
+
+    .project p {
+      flex-grow: 1;
+    }
+
+    /* ===== Print ===== */
+    @media print {
+      body {
+        background: white;
+        color: black;
+        padding: 0;
+        font-size: 12pt;
+      }
+      
+      .container {
+        max-width: 100%;
+      }
+      
+      header, section, .timeline-item, .project, .about {
+        box-shadow: none;
+        border: 1px solid #ddd;
+      }
+      
+      .skill:hover, .project:hover, .timeline-item:hover {
+        transform: none;
+        box-shadow: none;
+        background: white;
+        color: black;
+      }
+      
+      a {
+        color: black;
+        text-decoration: none;
+      }
+      
+      h2::after {
+        background: black;
+      }
+    }
+
+    /* ===== Responsive ===== */
+    @media (max-width: 768px) {
+      .container {
+        padding: 0 10px;
+      }
+      
+      header {
+        padding: 30px 15px;
+      }
+      
+      header h1 {
+        font-size: 2rem;
+      }
+      
+      header h3 {
+        font-size: 1.1rem;
+      }
+      
+      .contact-info {
+        flex-direction: column;
+        gap: 10px;
+      }
+      
+      .projects {
+        grid-template-columns: 1fr;
+      }
+      
+      .timeline {
+        margin-left: 10px;
+        padding-left: 20px;
+      }
+      
+      .timeline-item::before {
+        left: -26px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      body {
+        padding: 10px;
+      }
+      
+      h1 {
+        font-size: 1.8rem;
+      }
+      
+      h2 {
+        font-size: 1.3rem;
+      }
+      
+      section {
+        margin-bottom: 35px;
+      }
+      
+      .about, .project, .timeline-item {
+        padding: 20px;
+      }
+    }
+
+    /* ===== Animation ===== */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    section {
+      animation: fadeIn 0.6s ease-out forwards;
+    }
+
+    section:nth-child(2) { animation-delay: 0.1s; }
+    section:nth-child(3) { animation-delay: 0.2s; }
+    section:nth-child(4) { animation-delay: 0.3s; }
+    section:nth-child(5) { animation-delay: 0.4s; }
+    section:nth-child(6) { animation-delay: 0.5s; }
