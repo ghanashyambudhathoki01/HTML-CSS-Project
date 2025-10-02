@@ -31,7 +31,7 @@ A modern product landing page is a sleek, visually appealing webpage designed to
 🔗 **Live Preview:** *(https://productlandingproject.netlify.app/)*  
 ### 📃  Resume 
 An online resume showcasing your projects and personal info is a digital portfolio that highlights your skills, experiences, and achievements in a professional layout.
-🔗 **Live Preview:** *(https://amodernresume.netlify.app/)*  
+🔗 **Live Preview:** *(https://amodernresume.netlify.app)*  
 
 ---
 
