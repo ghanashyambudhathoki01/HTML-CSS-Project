@@ -29,7 +29,7 @@ A modern glassmorphism-based profile card portfolio website with animations, res
 ### ⌚  Product Landing Page 
 A modern product landing page is a sleek, visually appealing webpage designed to showcase a product with clear messaging, engaging visuals.
 🔗 **Live Preview:** *(https://productlandingproject.netlify.app/)*  
-### ⌚  Resume 
+### 📃  Resume 
 An online resume showcasing your projects and personal info is a digital portfolio that highlights your skills, experiences, and achievements in a professional layout.
 🔗 **Live Preview:** *(https://amodernresume.netlify.app/)*  
 
