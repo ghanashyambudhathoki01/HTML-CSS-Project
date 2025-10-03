@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MagZone - Modern Magazine</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <div class="logo">MagZone</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#world">World</a></li>
+        <li><a href="#tech">Tech</a></li>
+        <li><a href="#culture">Culture</a></li>
+        <li><a href="#lifestyle">Lifestyle</a></li>
+      </ul>
+      <button class="menu-btn" id="menuBtn">☰</button>
+    </div>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <span class="hero-badge">Featured Stories</span>
+      <h1>The Future of Digital Media</h1>
+      <p>Discover cutting-edge stories, in-depth analysis, and trending topics that shape tomorrow</p>
+      <a href="#articles" class="cta-btn">Explore Now</a>
+    </div>
+  </section>
+
+  <div class="container" id="articles">
+    <main>
+      <div class="articles-grid" id="world">
+        <article class="article-card">
+          <div class="article-img">
+            <span class="article-category">Technology</span>
+          </div>
+          <div class="article-content">
+            <h3>AI Revolution in 2025</h3>
+            <p>Exploring how artificial intelligence is transforming industries and reshaping our digital landscape.</p>
+            <div class="article-meta">
+              <span>📅 Oct 3, 2025</span>
+              <span>⏱ 5 min read</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="article-card" id="tech">
+          <div class="article-img">
+            <span class="article-category">Culture</span>
+          </div>
+          <div class="article-content">
+            <h3>Modern Identity</h3>
+            <p>How global connectivity is influencing cultural expression and traditional values worldwide.</p>
+            <div class="article-meta">
+              <span>📅 Oct 2, 2025</span>
+              <span>⏱ 7 min read</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="article-card" id="culture">
+          <div class="article-img">
+            <span class="article-category">Travel</span>
+          </div>
+          <div class="article-content">
+            <h3>Hidden Destinations</h3>
+            <p>Uncover breathtaking locations and unique experiences off the beaten path.</p>
+            <div class="article-meta">
+              <span>📅 Oct 1, 2025</span>
+              <span>⏱ 6 min read</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="article-card" id="lifestyle">
+          <div class="article-img">
+            <span class="article-category">Lifestyle</span>
+          </div>
+          <div class="article-content">
+            <h3>Wellness Balance</h3>
+            <p>Practical strategies for maintaining harmony between work, health, and personal growth.</p>
+            <div class="article-meta">
+              <span>📅 Sep 30, 2025</span>
+              <span>⏱ 4 min read</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <aside class="sidebar">
+      <div class="widget">
+        <h3>Categories</h3>
+        <ul>
+          <li><a href="#">🌍 World News</a></li>
+          <li><a href="#">💻 Technology</a></li>
+          <li><a href="#">🎨 Culture & Arts</a></li>
+          <li><a href="#">✈️ Travel</a></li>
+          <li><a href="#">🌱 Lifestyle</a></li>
+          <li><a href="#">💭 Opinion</a></li>
+        </ul>
+      </div>
+
+      <div class="widget">
+        <h3>Trending Now</h3>
+        <ul>
+          <li><a href="#">The Rise of Quantum Computing</a></li>
+          <li><a href="#">Sustainable Travel in 2025</a></li>
+          <li><a href="#">Digital Art Renaissance</a></li>
+          <li><a href="#">Mindful Living Guide</a></li>
+        </ul>
+      </div>
+
+      <div class="widget newsletter">
+        <h3>Stay Updated</h3>
+        <p style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 0.5rem;">Get the latest articles delivered to your inbox</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit">Subscribe</button>
+        <p>Magzone &copy; 2025 All rights reserved</p>
+   
+        </form>
+      </div>
+    </aside>
+  </div>
+       
+</body>
+</html>
