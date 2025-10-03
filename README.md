@@ -34,7 +34,7 @@ An online resume showcasing your projects and personal info is a digital portfol
 
 🔗 **Live Preview:** *(https://amodernresume.netlify.app)*  
 ### 📰  Magzine Project  
-"An online magazine project which allows you to read various articles, stories, and features across multiple categories
+An online magazine project which allows you to read various articles, stories, and features across multiple categories.
 
 🔗 **Live Preview:** *(https://magzineproject.netlify.app/)*  
 
